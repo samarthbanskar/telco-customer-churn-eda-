@@ -1,47 +1,98 @@
-# Telco Customer Churn - Exploratory Data Analysis (EDA)
+📘 Telco Customer Churn – Exploratory Data Analysis (EDA)
+📌 Project Overview
 
-## 📌 Project Overview
-This project explores the Telco Customer Churn dataset to identify factors that lead to customer churn.
-It includes data cleaning, visualization, and business insights using Python.
+This project explores the Telco Customer Churn dataset to identify the main factors that lead customers to leave the telecom service. The analysis includes cleaning, processing, visualization, and extracting business insights using Python.
 
-## 🎯 Objective
-- Perform complete EDA
-- Identify churn-related patterns
-- Understand behavior of high-risk customers
-- Generate useful business insights
+🎯 Objectives
 
-## 🧰 Tools & Technologies
-- Python
-- Pandas
-- NumPy
-- Seaborn
-- Matplotlib
-- Jupyter/Google Colab
+Perform complete exploratory data analysis (EDA)
 
-## 📂 Dataset
-• 7043 rows  
-• 21 columns  
-• Includes customer demographics, services, and churn info.
+Identify churn-related behavior and patterns
 
-## 🔍 Key Steps
-1. Data Cleaning  
-2. Handling missing values  
-3. Converting `TotalCharges` to numeric  
-4. Creating tenure groups  
-5. Visualizations (boxplot, histogram, scatterplot)  
-6. Churn analysis (categorical + numerical)  
-7. Business insights  
+Understand characteristics of high-risk customers
 
-## 📊 Major Insights
-- Month-to-month contract customers churn the most.
-- Fiber optic users show higher churn rate.
-- Higher MonthlyCharges correlates with increased churn.
-- Senior citizens churn more compared to younger customers.
+Generate business insights for customer retention
 
-## ✅ Final Conclusion
-Telecom company can reduce churn by:
-- Offering discounts to high-charge users  
-- Promoting longer-term contracts  
-- Improving fiber optic service quality  
-- Providing better support to senior citizens  
+🧰 Tools & Technologies
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Jupyter Notebook / Google Colab
+
+📂 Dataset Information
+
+Rows: 7043
+
+Columns: 21
+
+Includes:
+
+Customer demographics
+
+Service usage details
+
+Account information
+
+Churn indicator (Yes/No)
+
+🔍 Key Steps Performed
+✔ 1. Data Cleaning
+
+Converted TotalCharges → numeric
+
+Handled missing values
+
+Created tenure groups: New, Mid, Loyal
+
+Checked duplicates and datatypes
+
+✔ 2. Visualization
+
+Boxplots
+
+Histograms
+
+Scatterplots
+
+Countplots
+
+Groupwise analysis
+
+✔ 3. Churn Analysis
+
+Categorical vs churn
+
+Numerical vs churn
+
+Senior citizens, contract type, internet service, charges
+
+📊 Major Insights
+
+Month-to-month contract customers churn the most
+
+Fiber optic users have higher churn rates
+
+Higher MonthlyCharges → higher churn probability
+
+Senior citizens churn more than younger customers
+
+✅ Final Conclusion
+
+To reduce churn, the telecom company should focus on:
+
+Offering discounts to high-charge users
+
+Encouraging customers to switch to long-term contracts
+
+Improving fiber optic service and support quality
+
+Providing better assistance to senior citizens
 
